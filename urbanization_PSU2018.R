@@ -22,8 +22,6 @@ library(Hmisc)
 #18 Values in PSU_df$gbtownship_2021 but not in location_df$gbtownship
 
 
-setwd("~/Library/CloudStorage/OneDrive-TheHongKongPolytechnicUniversity/1_R-script/urban_csv")
-
 PSU_df<-read.csv("PSU_SSU_20200623_rev_20220501.csv",header=T)
 
 location_df<-read.csv("location_share_20190124.csv")
